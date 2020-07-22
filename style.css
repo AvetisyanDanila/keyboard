@@ -1,0 +1,62 @@
+.container  {
+    width: 100%;
+}
+
+/* ================================================================ */
+
+.keyboard {
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    width: 690px;
+}
+.line {
+    display: flex;
+}
+.key {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.backspace {
+    width: 78px;
+}
+.tab, .capslock {
+    width: 60px;
+}
+.lshift {
+    width: 72px;
+}
+.rshift {
+    width: 90px;
+}
+.space {
+    width: 256px;
+}
+.window {
+    padding-top: 5px;
+    width: 20px;
+}
+.letter-key {
+    font-size: 10px;
+    line-height: 100%;
+}
+.enter {
+    position: absolute;
+    right: 3px;
+    top: 51px;
+    width: 56px;
+    height: 86px;
+}
+.key_active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
