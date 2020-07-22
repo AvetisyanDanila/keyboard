@@ -7,3 +7,8 @@ document.querySelector('.i-11').onkeydown = () => {
 document.querySelector('.i-11').onkeyup = () => {
     document.querySelector('.key[data="'+event.code+'"]').classList.remove('key_active');
 };
+document.onclick = () => {
+    document.querySelectorAll('.key').forEach((element) => {
+        element.classList.remove('key_active'); // Убирает подсветку клавиши, если она была зажата и был произведён клик по документу
+    });
+}
